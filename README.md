@@ -11,14 +11,12 @@ This project seeks to accurately classify rice plant diseases using both deep le
 ---
 
 ## 🔍 Experiment Summary
-
-| Model        | Optimizer | Regularization | Dropout | Learning Rate | Early Stopping | Accuracy | F1 Score |
-|--------------|-----------|----------------|---------|----------------|----------------|----------|----------|
-| Model 1      | Adam      | None           | No      | 0.001          | No             | 32%      | 0.32     |
-| Model 2      | Adam      | L2             | No      | 0.001          | No             | 34%      | 0.34     |
-| Model 3      | RMSprop   | None           | No      | 0.001          | No             | 31%      | 0.31     |
-| Model 4 (Best)| Adam     | L1 + L2        | 0.4     | 0.0003         | Yes            | **33%**  | **0.33** |
-| Random Forest| N/A       | N/A            | N/A     | N/A            | N/A            | 81%      | 0.80     |
+| Model No. | Optimizer | Regularizer | Epochs | Early Stopping | # Layers | Learning Rate | Accuracy | F1 Score | Recall | Precision |
+| --------- | --------- | ----------- | ------ | -------------- | -------- | ------------- | -------- | -------- | ------ | --------- |
+| Model 1   | Adam      | None        | 10     | No             | 3        | 0.001         | 0.32     | 0.32     | 0.32   | 0.32      |
+| Model 2   | Adam      | L2          | 10     | Yes            | 3        | 0.001         | 0.34     | 0.34     | 0.34   | 0.34      |
+| Model 3   | RMSprop   | None        | 10     | No             | 3        | 0.001         | 0.31     | 0.31     | 0.31   | 0.31      |
+| Model 4   | Adam      | L2          | 10     | Yes            | 3        | 0.0005        | 0.33     | 0.33     | 0.33   | 0.33      |
 
 ---
 
