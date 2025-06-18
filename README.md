@@ -24,3 +24,6 @@ This project seeks to accurately classify rice plant diseases using both deep le
 The link of the models it exceeded the mbs of github it couldn’t be pushed 
 
 - https://drive.google.com/drive/folders/1eMQ2iMR4XrUsxTDclci9VWFq8o0UQL0X
+
+- Link to the video : https://www.veed.io/view/3c0f9d45-8ae9-4c4d-9d4e-f697a06d8dba?panel=share
+
